@@ -64,7 +64,7 @@ def handle_oneapi_cursor_channel(oneapi: OneAPIManager,
 if __name__ == "__main__":
     config = load_config()
     oneapi_config = config.get('oneapi', {})
-    default_threshold = oneapi_config.get('low_balance_threshold', 110)
+    default_threshold = oneapi_config.get('low_balance_threshold', 149)
     
     parser = argparse.ArgumentParser()
     parser.add_argument('--oneapi_url', type=str, required=False, help='URL link for One-API website')
